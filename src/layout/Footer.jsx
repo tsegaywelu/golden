@@ -7,6 +7,7 @@ const Footer = () => {
         <div className="p-5">
             <h3 className="font-bold text-xl text-indigo-600">event and promotion</h3>
         </div>
+        
         <div className="p-5">
             <div className="text-sm uppercase text-indigo-600 font-bold">Resources</div>
             <a className="my-3 block" href="/#">Documentation <span className="text-teal-600 text-xs p-1"></span></a><a
@@ -128,7 +129,7 @@ const Footer = () => {
                 </svg>
             </a>
         </div>
-        <div className="my-5">developed by tsegay welu© Copyright 2024. All Rights Reserved.</div>
+        <div className="my-5">developed by <a href="github.com/tsegaywelu " className='text-blue-700'>tsegay welu©</a> Copyright 2024. All Rights Reserved.</div>
     </div>
 </div>
 

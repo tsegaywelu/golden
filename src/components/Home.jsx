@@ -124,9 +124,9 @@ const Home = () => {
                   onMouseLeave={() => setSliderAutoplay(true)} // Resume autoplay on mouse leave
                 />
               )}
-              <h3 className="text-2xl font-bold text-gray-950  float-center mb-2 ml-5">{n?.Title}</h3> 
-              <p className="text-xl">{n?.description}    <i className="float-end text-sm">7 days ago</i></p>
-              <textarea
+              {/* <h3 className="text-2xl font-bold text-gray-950  float-center mb-2 ml-5">{n?.Title}</h3> 
+              <p className="text-xl">{n?.description}    <i className="float-end text-sm">7 days ago</i></p> */}
+            {/*   <textarea
                 name="comment"
                 id="comments"
                 cols="20"
@@ -146,7 +146,7 @@ const Home = () => {
                ease-in-out"
               >
                 post
-              </button>
+              </button> */}
             </div>
           ))}
         </Slider>
